@@ -10,11 +10,11 @@ groceries = {
 
 def get_the_min(groceries)
   #code your solution here!
-   temp ='z'
+   min ='z'
   groceries each do |type, item|
     if type.min < temp
-      temp = type.min
+      min = type.min
     end
   end
-  temp
+  min
 end
