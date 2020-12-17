@@ -13,7 +13,7 @@ def get_the_min(groceries)
    temp ='z'
   groceries.each do |type, item|
     if item.min < temp
-      temp = type.min
+      temp = item.min
     end
   end
   temp
