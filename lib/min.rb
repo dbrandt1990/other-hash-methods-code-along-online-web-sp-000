@@ -14,6 +14,7 @@ def get_the_min(groceries)
   groceries each do |type, item|
     if type.min < temp
       temp = type.min
+    end
   end
   temp
 end
